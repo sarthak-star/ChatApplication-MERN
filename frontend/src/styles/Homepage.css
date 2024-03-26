@@ -1,0 +1,43 @@
+.Loginpage{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: #191825;
+    color: aliceblue;
+}
+.heading_vertical{
+    writing-mode: vertical-lr;
+    width: 50%;
+}
+.heading{
+    width: 50%;
+    height: 100%;
+    padding: 15%;
+    font-size: 9em;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    background-clip: text;        
+    -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 500;
+            
+}
+
+.Form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcard{
+    background: linear-gradient(#000, #000) padding-box,
+              linear-gradient(to right, darkblue, darkorchid) border-box;
+  
+  border: 4px solid transparent;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5em;
+    
+}
+

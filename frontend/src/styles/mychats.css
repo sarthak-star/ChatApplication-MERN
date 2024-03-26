@@ -1,0 +1,17 @@
+.mychats{
+    background: #212529;
+    height: 100%;
+    width: 25%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+#mychatsheading{
+    background: #BC0CF1;
+background: linear-gradient(to right, #BC0CF1 0%, #D40404 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: larger;
+font-weight: 600;
+}

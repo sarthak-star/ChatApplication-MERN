@@ -1,0 +1,61 @@
+
+.Login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.message{
+     
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 1%;
+    width: 60%;
+    
+}
+.message p{
+    background: #865DFF;
+    padding: 2%;
+    
+    font-weight: 400;
+    border-radius: 10em;
+}
+.userinput{
+     
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 1%;
+    
+    
+}
+.userinput input{
+    background: #E384FF;
+    padding: 1%;
+    
+    font-weight: 400;
+    border-radius: 10em;
+}
+.userinput button{
+    background: #E384FF;
+    width: 30%;
+    border-radius: 10em;
+    padding: 0.7%;
+}
+.formchange{
+    text-align: center;
+    
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+}
+.Switchbtn{
+    font-size: 1.2em;
+    padding: 1%;
+    
+    
+}
